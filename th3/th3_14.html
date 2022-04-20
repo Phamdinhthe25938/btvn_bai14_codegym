@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr1= [3, 5, 1, 8, -3, 7, 8]
+    searchMax(arr1);
+    let arr2 = [7, 12, 6, 9, 20, 56, 89]
+    searchMax(arr2)
+    let arr3= []
+    searchMax(arr3)
+    let arr4= [0, 0, 0, 0, 0, 0]
+    searchMax(arr4)
+    function searchMax(arr){
+        let max =arr[0];
+          for (let i =1;i<arr.length;i++){
+              if(arr[i]>max){
+                  max=arr[i];
+              }
+          }
+        let result = console.log(max);
+          return result;
+    }
+</script>
